@@ -1,4 +1,3 @@
--- which assignments are causing the most assitance requests
 SELECT assignments.id as id, assignments.day as day, assignments.chapter as chapter, assignments.name as name,
 COUNT(assistance_requests.assignment_id) as number_of_requests
 FROM assignments
